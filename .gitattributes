@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source files
+*.ts text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+
+# Template files
+templates/**/*.py text eol=lf
+templates/**/*.js text eol=lf
+templates/**/*.ts text eol=lf
+templates/**/*.json text eol=lf
+templates/**/*.md text eol=lf
+
